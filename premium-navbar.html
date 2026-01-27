@@ -1,0 +1,111 @@
+<!-- Premium Navbar with Glassmorphism -->
+<nav class="navbar fixed top-0 left-0 right-0 z-50 transition-all duration-300" id="navbar">
+    <!-- Glassmorphism Background -->
+    <div class="navbar-bg absolute inset-0 backdrop-blur-xl bg-white/70 border-b border-white/20 transition-all duration-300"></div>
+    
+    <!-- Container -->
+    <div class="relative container mx-auto px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16 lg:h-18">
+            <!-- Logo/Brand -->
+            <div class="flex-shrink-0">
+                <a href="#home" class="brand-logo group flex items-center space-x-2 transition-all duration-300">
+                    <div class="w-8 h-8 lg:w-10 lg:h-10 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-lg flex items-center justify-center shadow-lg group-hover:shadow-emerald-500/25 transition-all duration-300 group-hover:scale-105">
+                        <span class="text-white font-bold text-sm lg:text-base">SK</span>
+                    </div>
+                    <span class="text-xl lg:text-2xl font-bold bg-gradient-to-r from-neutral-900 to-neutral-700 bg-clip-text text-transparent group-hover:from-emerald-600 group-hover:to-emerald-500 transition-all duration-300">MOJID</span>
+                </a>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#home" class="nav-link relative text-neutral-700 hover:text-emerald-600 font-medium transition-colors duration-300 group">
+                    <span class="relative z-10">Home</span>
+                    <span class="nav-underline absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-emerald-500 to-emerald-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                </a>
+                <a href="#about" class="nav-link relative text-neutral-700 hover:text-emerald-600 font-medium transition-colors duration-300 group">
+                    <span class="relative z-10">About</span>
+                    <span class="nav-underline absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-emerald-500 to-emerald-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                </a>
+                <a href="#skills" class="nav-link relative text-neutral-700 hover:text-emerald-600 font-medium transition-colors duration-300 group">
+                    <span class="relative z-10">Skills</span>
+                    <span class="nav-underline absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-emerald-500 to-emerald-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                </a>
+                <a href="#projects" class="nav-link relative text-neutral-700 hover:text-emerald-600 font-medium transition-colors duration-300 group">
+                    <span class="relative z-10">Projects</span>
+                    <span class="nav-underline absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-emerald-500 to-emerald-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                </a>
+                <a href="#contact" class="nav-contact-btn px-4 py-2 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white rounded-lg hover:shadow-lg hover:shadow-emerald-500/25 transition-all duration-300 transform hover:scale-105 font-medium">
+                    Contact
+                </a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden p-2 text-neutral-700 hover:text-emerald-600 transition-colors duration-300" id="mobile-menu-btn" aria-label="Toggle mobile menu">
+                <div class="w-6 h-5 relative flex flex-col justify-between" id="hamburger">
+                    <span class="hamburger-line block w-full h-0.5 bg-current transition-all duration-300 origin-left"></span>
+                    <span class="hamburger-line block w-full h-0.5 bg-current transition-all duration-300"></span>
+                    <span class="hamburger-line block w-full h-0.5 bg-current transition-all duration-300 origin-left"></span>
+                </div>
+            </button>
+        </div>
+    </div>
+    
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay fixed inset-0 bg-black/50 backdrop-blur-sm opacity-0 pointer-events-none transition-all duration-300 z-40" id="mobile-menu-overlay"></div>
+    
+    <!-- Mobile Menu Panel -->
+    <div class="mobile-menu fixed top-0 right-0 h-full w-80 max-w-[85vw] bg-white/95 backdrop-blur-xl shadow-2xl transform translate-x-full transition-transform duration-300 z-50" id="mobile-menu">
+        <div class="flex flex-col h-full">
+            <!-- Mobile Menu Header -->
+            <div class="flex items-center justify-between p-6 border-b border-neutral-200/50">
+                <div class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-sm">SK</span>
+                    </div>
+                    <span class="text-xl font-bold text-neutral-900">MOJID</span>
+                </div>
+                <button class="p-2 text-neutral-500 hover:text-neutral-700 transition-colors duration-300" id="mobile-menu-close" aria-label="Close mobile menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu Navigation -->
+            <nav class="flex-1 p-6">
+                <div class="space-y-2">
+                    <a href="#home" class="mobile-nav-link block px-4 py-3 text-neutral-700 hover:text-emerald-600 hover:bg-emerald-50 rounded-lg transition-all duration-300 font-medium">
+                        Home
+                    </a>
+                    <a href="#about" class="mobile-nav-link block px-4 py-3 text-neutral-700 hover:text-emerald-600 hover:bg-emerald-50 rounded-lg transition-all duration-300 font-medium">
+                        About
+                    </a>
+                    <a href="#skills" class="mobile-nav-link block px-4 py-3 text-neutral-700 hover:text-emerald-600 hover:bg-emerald-50 rounded-lg transition-all duration-300 font-medium">
+                        Skills
+                    </a>
+                    <a href="#projects" class="mobile-nav-link block px-4 py-3 text-neutral-700 hover:text-emerald-600 hover:bg-emerald-50 rounded-lg transition-all duration-300 font-medium">
+                        Projects
+                    </a>
+                    <a href="#contact" class="mobile-nav-link block px-4 py-3 text-emerald-600 bg-emerald-50 rounded-lg transition-all duration-300 font-medium">
+                        Contact
+                    </a>
+                </div>
+            </nav>
+            
+            <!-- Mobile Menu Footer -->
+            <div class="p-6 border-t border-neutral-200/50">
+                <div class="flex items-center space-x-4">
+                    <a href="https://github.com" class="w-10 h-10 bg-neutral-100 rounded-lg flex items-center justify-center text-neutral-600 hover:text-emerald-600 hover:bg-emerald-50 transition-all duration-300">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com" class="w-10 h-10 bg-neutral-100 rounded-lg flex items-center justify-center text-neutral-600 hover:text-emerald-600 hover:bg-emerald-50 transition-all duration-300">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:contact@mojid.com" class="w-10 h-10 bg-neutral-100 rounded-lg flex items-center justify-center text-neutral-600 hover:text-emerald-600 hover:bg-emerald-50 transition-all duration-300">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

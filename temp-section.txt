@@ -1,0 +1,307 @@
+<!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <div class="inline-flex items-center px-4 py-2 bg-primary/10 rounded-full mb-6">
+                    <span class="w-2 h-2 bg-primary rounded-full mr-2 animate-pulse"></span>
+                    <span class="text-primary font-medium text-sm">Portfolio Showcase</span>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    <span class="bg-gradient-to-r from-neutral-900 to-neutral-600 bg-clip-text text-transparent">Featured Projects</span>
+                </h2>
+                <p class="text-neutral-500 text-lg">Explore my latest work and creative solutions</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="projects-container">
+                <!-- Project 1: E-Commerce Platform -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="https://via.placeholder.com/400x300/10b981/FFFFFF?text=E-Commerce" 
+                             alt="E-Commerce Platform" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3 text-gray-900">E-Commerce Platform</h3>
+                        <p class="text-gray-600 mb-4">Full-featured online shopping platform with cart management, payment integration, and admin dashboard.</p>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="px-3 py-1 bg-green-100 text-green-700 text-sm rounded-full">React</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-700 text-sm rounded-full">Node.js</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-700 text-sm rounded-full">MongoDB</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-700 text-sm rounded-full">Stripe</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <a href="https://demo-ecommerce.netlify.app" target="_blank" 
+                               class="flex-1 text-center px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/username/ecommerce-platform" target="_blank" 
+                               class="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors">
+                                <i class="fab fa-github mr-2"></i>Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Task Management App -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="https://via.placeholder.com/400x300/3b82f6/FFFFFF?text=Task+Manager" 
+                             alt="Task Management App" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3 text-gray-900">Task Management App</h3>
+                        <p class="text-gray-600 mb-4">Collaborative task management tool with drag-and-drop functionality, real-time updates, and team collaboration.</p>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-700 text-sm rounded-full">Vue.js</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-700 text-sm rounded-full">Firebase</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-700 text-sm rounded-full">Tailwind</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-700 text-sm rounded-full">Vuex</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <a href="https://demo-taskmanager.netlify.app" target="_blank" 
+                               class="flex-1 text-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/username/task-manager" target="_blank" 
+                               class="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors">
+                                <i class="fab fa-github mr-2"></i>Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Weather Dashboard -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="https://via.placeholder.com/400x300/8b5cf6/FFFFFF?text=Weather" 
+                             alt="Weather Dashboard" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3 text-gray-900">Weather Dashboard</h3>
+                        <p class="text-gray-600 mb-4">Real-time weather application with location-based forecasts, interactive maps, and detailed weather analytics.</p>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="px-3 py-1 bg-purple-100 text-purple-700 text-sm rounded-full">JavaScript</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-700 text-sm rounded-full">API</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-700 text-sm rounded-full">Chart.js</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-700 text-sm rounded-full">CSS3</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <a href="https://demo-weather.netlify.app" target="_blank" 
+                               class="flex-1 text-center px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/username/weather-dashboard" target="_blank" 
+                               class="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors">
+                                <i class="fab fa-github mr-2"></i>Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Social Media Platform -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="https://via.placeholder.com/400x300/ec4899/FFFFFF?text=Social+Media" 
+                             alt="Social Media Platform" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3 text-gray-900">Social Media Platform</h3>
+                        <p class="text-gray-600 mb-4">Modern social networking app with real-time messaging, posts, likes, and user profile management.</p>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="px-3 py-1 bg-pink-100 text-pink-700 text-sm rounded-full">React</span>
+                            <span class="px-3 py-1 bg-pink-100 text-pink-700 text-sm rounded-full">GraphQL</span>
+                            <span class="px-3 py-1 bg-pink-100 text-pink-700 text-sm rounded-full">PostgreSQL</span>
+                            <span class="px-3 py-1 bg-pink-100 text-pink-700 text-sm rounded-full">Socket.io</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <a href="https://demo-social.netlify.app" target="_blank" 
+                               class="flex-1 text-center px-4 py-2 bg-pink-600 text-white rounded-lg hover:bg-pink-700 transition-colors">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/username/social-platform" target="_blank" 
+                               class="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors">
+                                <i class="fab fa-github mr-2"></i>Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Portfolio Website -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="https://via.placeholder.com/400x300/f59e0b/FFFFFF?text=Portfolio" 
+                             alt="Portfolio Website" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3 text-gray-900">Portfolio Website</h3>
+                        <p class="text-gray-600 mb-4">Responsive portfolio template with smooth animations, dark mode support, and optimized performance.</p>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="px-3 py-1 bg-amber-100 text-amber-700 text-sm rounded-full">HTML5</span>
+                            <span class="px-3 py-1 bg-amber-100 text-amber-700 text-sm rounded-full">Tailwind</span>
+                            <span class="px-3 py-1 bg-amber-100 text-amber-700 text-sm rounded-full">JavaScript</span>
+                            <span class="px-3 py-1 bg-amber-100 text-amber-700 text-sm rounded-full">AOS</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <a href="https://demo-portfolio.netlify.app" target="_blank" 
+                               class="flex-1 text-center px-4 py-2 bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition-colors">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/username/portfolio-template" target="_blank" 
+                               class="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors">
+                                <i class="fab fa-github mr-2"></i>Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Blog Platform -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="https://via.placeholder.com/400x300/06b6d4/FFFFFF?text=Blog+Platform" 
+                             alt="Blog Platform" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3 text-gray-900">Blog Platform</h3>
+                        <p class="text-gray-600 mb-4">Content management system for bloggers with rich text editor, SEO optimization, and comment system.</p>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="px-3 py-1 bg-cyan-100 text-cyan-700 text-sm rounded-full">Next.js</span>
+                            <span class="px-3 py-1 bg-cyan-100 text-cyan-700 text-sm rounded-full">Markdown</span>
+                            <span class="px-3 py-1 bg-cyan-100 text-cyan-700 text-sm rounded-full">Vercel</span>
+                            <span class="px-3 py-1 bg-cyan-100 text-cyan-700 text-sm rounded-full">Prisma</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <a href="https://demo-blog.netlify.app" target="_blank" 
+                               class="flex-1 text-center px-4 py-2 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition-colors">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/username/blog-platform" target="_blank" 
+                               class="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors">
+                                <i class="fab fa-github mr-2"></i>Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7: Fitness Tracker -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="https://via.placeholder.com/400x300/10b981/FFFFFF?text=Fitness+Tracker" 
+                             alt="Fitness Tracker" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3 text-gray-900">Fitness Tracker</h3>
+                        <p class="text-gray-600 mb-4">Health and fitness app with workout tracking, nutrition planning, and progress visualization.</p>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="px-3 py-1 bg-green-100 text-green-700 text-sm rounded-full">React Native</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-700 text-sm rounded-full">Firebase</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-700 text-sm rounded-full">Redux</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-700 text-sm rounded-full">Charts</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <a href="https://demo-fitness.netlify.app" target="_blank" 
+                               class="flex-1 text-center px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/username/fitness-tracker" target="_blank" 
+                               class="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors">
+                                <i class="fab fa-github mr-2"></i>Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8: Recipe Finder -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="https://via.placeholder.com/400x300/ef4444/FFFFFF?text=Recipe+Finder" 
+                             alt="Recipe Finder" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3 text-gray-900">Recipe Finder</h3>
+                        <p class="text-gray-600 mb-4">Recipe discovery app with ingredient search, meal planning, and nutritional information display.</p>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="px-3 py-1 bg-red-100 text-red-700 text-sm rounded-full">Vue.js</span>
+                            <span class="px-3 py-1 bg-red-100 text-red-700 text-sm rounded-full">API</span>
+                            <span class="px-3 py-1 bg-red-100 text-red-700 text-sm rounded-full">Bootstrap</span>
+                            <span class="px-3 py-1 bg-red-100 text-red-700 text-sm rounded-full">LocalStorage</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <a href="https://demo-recipes.netlify.app" target="_blank" 
+                               class="flex-1 text-center px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/username/recipe-finder" target="_blank" 
+                               class="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors">
+                                <i class="fab fa-github mr-2"></i>Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 9: Video Streaming -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="https://via.placeholder.com/400x300/6366f1/FFFFFF?text=Video+Streaming" 
+                             alt="Video Streaming Platform" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3 text-gray-900">Video Streaming Platform</h3>
+                        <p class="text-gray-600 mb-4">Video streaming service with user authentication, video upload, and adaptive bitrate streaming.</p>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm rounded-full">React</span>
+                            <span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm rounded-full">Node.js</span>
+                            <span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm rounded-full">AWS</span>
+                            <span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm rounded-full">WebRTC</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <a href="https://demo-video.netlify.app" target="_blank" 
+                               class="flex-1 text-center px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/username/video-streaming" target="_blank" 
+                               class="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors">
+                                <i class="fab fa-github mr-2"></i>Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 10: AI Chatbot -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="https://via.placeholder.com/400x300/84cc16/FFFFFF?text=AI+Chatbot" 
+                             alt="AI Chatbot" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3 text-gray-900">AI Chatbot Assistant</h3>
+                        <p class="text-gray-600 mb-4">Intelligent conversational AI with natural language processing and context-aware responses.</p>
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            <span class="px-3 py-1 bg-lime-100 text-lime-700 text-sm rounded-full">Python</span>
+                            <span class="px-3 py-1 bg-lime-100 text-lime-700 text-sm rounded-full">TensorFlow</span>
+                            <span class="px-3 py-1 bg-lime-100 text-lime-700 text-sm rounded-full">Flask</span>
+                            <span class="px-3 py-1 bg-lime-100 text-lime-700 text-sm rounded-full">NLP</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <a href="https://demo-chatbot.netlify.app" target="_blank" 
+                               class="flex-1 text-center px-4 py-2 bg-lime-600 text-white rounded-lg hover:bg-lime-700 transition-colors">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/username/ai-chatbot" target="_blank" 
+                               class="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors">
+                                <i class="fab fa-github mr-2"></i>Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

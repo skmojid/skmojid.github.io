@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="assets/css/premium.css">
+</head>
+<body class="bg-white p-8">
+    <h1 class="text-3xl font-bold mb-8">Projects Test</h1>
+    
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="projects-container">
+        <!-- Project 1: E-Commerce Platform -->
+        <div class="project-card group" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-image relative overflow-hidden">
+                <img src="https://via.placeholder.com/400x300/10b981/FFFFFF?text=E-Commerce" 
+                     alt="E-Commerce Platform" 
+                     class="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </div>
+            <div class="project-content p-6">
+                <h3 class="project-title text-xl font-bold mb-3 text-neutral-900">E-Commerce Platform</h3>
+                <p class="project-description text-neutral-600 mb-4 line-clamp-3">Full-featured online shopping platform with cart management, payment integration, and admin dashboard.</p>
+                <div class="project-tech flex flex-wrap gap-2 mb-5">
+                    <span class="tech-badge">React</span>
+                    <span class="tech-badge">Node.js</span>
+                    <span class="tech-badge">MongoDB</span>
+                    <span class="tech-badge">Stripe</span>
+                </div>
+                <div class="project-actions flex gap-3">
+                    <a href="https://demo-ecommerce.netlify.app" target="_blank" 
+                       class="project-btn project-btn-primary flex-1">
+                        <i class="fas fa-external-link-alt"></i>
+                        <span>Live Demo</span>
+                    </a>
+                    <a href="https://github.com/username/ecommerce-platform" target="_blank" 
+                       class="project-btn project-btn-secondary">
+                        <i class="fab fa-github"></i>
+                        <span>Code</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init({
+                duration: 800,
+                once: true,
+                offset: 100
+            });
+            console.log('Test page loaded successfully');
+        });
+    </script>
+</body>
+</html>

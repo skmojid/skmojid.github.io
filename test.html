@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .test-box { 
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-6">
+        <h1 class="text-3xl font-bold text-center mb-8">Portfolio Test Page</h1>
+        
+        <div class="test-box">
+            <h2>Test Box 1</h2>
+            <p>If you can see this, basic HTML/CSS is working.</p>
+        </div>
+        
+        <div class="test-box" style="background: linear-gradient(135deg, #3b82f6, #1e40af);">
+            <h2>Test Box 2</h2>
+            <p>If you can see this with blue gradient, styling is working.</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold mb-4">Debug Information</h2>
+            <div id="debug-info"></div>
+        </div>
+    </div>
+    
+    <script>
+        // Test basic JavaScript
+        console.log('Test page loaded successfully');
+        
+        const debugInfo = document.getElementById('debug-info');
+        debugInfo.innerHTML = `
+            <p><strong>Current Time:</strong> ${new Date().toLocaleString()}</p>
+            <p><strong>User Agent:</strong> ${navigator.userAgent}</p>
+            <p><strong>Screen Resolution:</strong> ${screen.width}x${screen.height}</p>
+            <p><strong>JavaScript:</strong> Working ✅</p>
+            <p><strong>DOM Manipulation:</strong> Working ✅</p>
+        `;
+        
+        // Test if assets can be loaded
+        fetch('assets/css/premium.css')
+            .then(response => {
+                if (response.ok) {
+                    console.log('CSS assets are accessible');
+                } else {
+                    console.error('CSS assets not accessible');
+                }
+            })
+            .catch(error => console.error('Asset loading error:', error));
+    </script>
+</body>
+</html>
